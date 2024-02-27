@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ENG">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1. shrink-to-fit=no" />
+        <title>GoBike</title>
+        <link rel="stylesheet" href="index.css" />
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    </head>
+    
+    
+    
+    <body data-spy="scroll" data-target="#navbarResponsive">
+    
+        <div class="container">
+            <div class="row">
+                <header class="col-md-12 mt-1">
+                    <!--Navigation--->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html"><img src="img/bikelogo.png">GoBike</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#menuItems" aria-controls="menuItems" aria-expanded="false"
+                                aria-label="Toggle Navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="menuItems">
+                                <ul class="navbar-nav display-4 me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="index.html"><i
+                                                class="bi-house-door"></i>Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="bikes.html">Our bikes</a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="donate.html">Donate a bike</a>
+                                    </li>
+    
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+                                    </li>
+    
+    
+                                </ul>
+                                <form class="d-flex mx-2 my-2 my-lg-0 " role="search">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                            <ul class="navbar-nav m-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="user.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        User
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--End of Navigation-->
+                </header>
+            </div>
+    
+            <!--Start of Slider-->
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Cyclists.jpg" class="d-block w-100" alt="First">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Start biking today!!</h5>
+                            <p>We offer a range of bikes for all your biking needs. Check them out here!</p>
+                            <a class="btn btn-primary" href="bikes.html" role="button">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img//resized images 500x500/bike_chain_adjustment.jpg" class="d-block w-100" alt="Second">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bike service packages</h5>
+                            <p>We offer a range of bike services from basic to full overhaul</p>
+                            <a class="btn btn-primary" href="services.html" role="button">learn more</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/CyclistsJoin.jpg" class="d-block w-100" alt="Third">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Got an unwanted bike?</h5>
+                            <p>You can donate your bike to support our monthly charity events.</p>
+                            <a class="btn btn-primary" href="donate.html" role="button">Donate my bike</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Bicycle01.jpg" class="d-block w-100" alt="Third">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Contact us today!</h5>
+                            <p>Call us on 0763485984 or make an enquiry via our contact page </p>
+                            <a class="btn btn-primary" href="contact.html" role="button">Contact</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--End of Slider-->
+    
+            <!--Main page about us-->
+            <div class="row" id="about">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="img/resized images 500x500/BikeDonate2.png" class="img-fluid">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 desc">
+    
+                    <h2>Welcome to GoBike!</h2>
+                    <p class="lead">
+                        GoBike is a local business run by our professionals with over 20 years of experience.
+                        We offer coaching and support for those who are interested in Competitive cyling as well
+                        as the opportunity to participate in more social cycling activities, with a wide range of bikes and
+                        service packages to give every bike the care it deserves!
+                        We also accept bike donations which are used in our monthly bike charity events for cyclists of all
+                        different kinds and experience levels.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Main Page Cards -->
+            <div class="links mb-8">
+                <div class="container ">
+                    <h1 class="text-center">How can we help?</h1>
+                    <div class="row ">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card">
+                                <a href="services.html" class="card-link">
+                                    <div class="card-img">
+                                        <img src="img/Bikerepair.jpg" class="img-fluid">
+                                    </div>
+    
+                                    <div class="card-body">
+                                        <h4 class="card-title">Services</h4>
+                                        <p class="card-text">
+    
+                                            View our range of bike service packages here from basic to full Overhaul
+                                        </p>
+                                    </div>
+    
+                                </a>
+    
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card">
+                                <a href="donate.html" class="card-link">
+                                    <div class="card-img">
+                                        <img src="img/bicycles-workshop.jpg" class="img-fluid">
+                                    </div>
+    
+                                    <div class="card-body">
+                                        <h4 class="card-title">Got an unwanted bike?</h4>
+                                        <p class="card-text">
+    
+                                            You can donate your bike to our bike charity on here!
+                                        </p>
+                                    </div>
+    
+                                </a>
+    
+    
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card">
+                                <a href="bikes.html" class="card-link">
+                                    <div class="card-img">
+                                        <img src="img/CUBE Reaction Hybrid Performance 500 Trapeze Electric Mountain Bike.jpeg" class="img-fluid">
+                                    </div>
+    
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bikes!</h4>
+                                        <p class="card-text">
+                                            Whatever the journey we offer a wide range of bikes for sale to suit every riders needs.
+                                        </p>
+                                    </div>
+                                    <!--<div class="card-footer">
+                                        <a href="bikes.html" class="card-link">Read more</a>
+                                    </div>-->
+                                </a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <!--Social-->
+            <div class="social-container">
+                <div  class="container">
+                    <div class="row">
+                        
+                        <div class="col-3">
+                            <h3>SOCIAL MEDIA</h3>
+                            <div id="social" class="aside-box">
+                                <div class="twitter">
+                                    <a href="#" class="icon">t</a>
+                                    <p class="overlay">Twitter</p>
+                                </div>
+        
+                                <div class="facebook">
+                                    <a href="#" class="icon">f</a>
+                                    <p class="overlay">facebook</p>
+                                </div>
+        
+                                <div class="Youtube">
+                                    <a href="#" class="icon">y</a>
+                                    <p class="overlay">Youtube</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <section>
+                                <div class="row text-center">
+                                  <div class="col-md-4 mb-5 mb-md-0">
+                                    <div class="d-flex justify-content-center mb-4">
+                                      <img src="img/resized img 250/Bicycle02.jpg"
+                                        class="rounded-circle shadow-1-strong" width="150" height="150" />
+                                    </div>
+                                    <h5 class="mb-3">Peter Quill</h5>
+                                    <p class="px-xl-3">
+                                      <i class="fas fa-quote-left pe-2"></i>Excellent Service!  Me and my friend needed some bike repairs and adjustments at the last minute before our next ride and the staff at GoBike were happy to help. Highly recommend!
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-md-4 mb-5 mb-md-0">
+                                    <div class="d-flex justify-content-center mb-4">
+                                      <img src="img/resized img 250/pexels-photo-7242975.jpeg"
+                                        class="rounded-circle shadow-1-strong" width="150" height="150" />
+                                    </div>
+                                    <h5 class="mb-3">Lisa Simpson</h5>
+                                    <p class="px-xl-3">
+                                      <i class="fas fa-quote-left pe-2"></i>I use my bike regularly for my daily commute around the city.  I love cycling and I came to GoBike some simple adjustments and some helpful advice on how to maintain my bike.  Can't fault the service I received.
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-md-4 mb-0">
+                                    <div class="d-flex justify-content-center mb-4">
+                                      <img src="img/resized img 250/bike-mountain.jpeg"
+                                        class="rounded-circle shadow-1-strong" width="150" height="150" />
+                                    </div>
+                                    <h5 class="mb-3">Mark Hampton</h5>
+                                    <p class="px-xl-3">
+                                      <i class="fas fa-quote-left pe-2"></i>I came to GoBike for some new mountain bike tyres and a basic service.  I got exactly what I needed and at a great price.  Staff were very friendly too and offered me tips for my next ride around the mountains!
+                                    </p>
+                                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="fas fa-star fa-sm text-warning"></i>
+                                      </li>
+                                      <li>
+                                        <i class="far fa-star fa-sm text-warning"></i>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </section>
+            
+                        </div>
+        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+           
+    
+    
+    
+    
+    
+    
+    
+            <!-- 
+            <div class="container w-100" id="donate-link">
+                <div class="row Jumbotron w-100">
+                    <div class="col-xs-12 col-sm-12 cold-md-9 col-lg-9 col-xl-10">
+                        <h2>Have an unwanted bike?</h2>
+                        <p class="lead"> At GoBike we receive a large number of bike donations which help support our bike
+                            charity races at the end of each month.
+                            Find out how you can donate a bike on the link below.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 cold-lg-3 col-xl-2">
+                        <a href="DonateBike.html"><button type="button class=" btn btn-outline-secondary btn-lg">Donate a
+                                bike!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            -->
+    
+        </div>
+    
+    
+    
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="jquery/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script>
+            $(document).ready(function () {
+                $(".carousel").carousel({
+                    interval: 4000
+                });
+            });
+        </script>
+    </body>
+    
+    <!--start of footer-->
+    <footer class="footer-bs">
+        <div class="container">
+            <div class="row">
+                <div class="hours col-sm-12 col-md-6 col-lg-4">
+                    <h5>
+                        Opening Hours
+                    </h5>
+                    <table id="hours">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Day
+                                </td>
+                                <td>
+                                    Open
+                                </td>
+                                <td>
+                                    Close
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Monday
+                                </td>
+                                <td rowspan="2">
+                                    9:00
+                                </td>
+                                <td rowspan="2">
+                                    17:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tuesday
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Wednesday
+                                </td>
+                                <td>
+                                    10:00
+                                </td>
+                                <td>
+                                    18:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Thursday
+                                </td>
+                                <td rowspan="2">
+                                    9:00
+                                </td>
+                                <td rowspan="2">
+                                    17:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Friday
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Saturday
+                                </td>
+                                <td>
+                                    10:00
+                                </td>
+                                <td>
+                                    16:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Sunday
+                                </td>
+                                <td colspan="2">
+                                    Closed
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div id="location">
+                        <h5>
+                            Where are we?
+                        </h5>
+                        <p>
+                            <iframe style="border:0;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.621588833226!2d-0.10138978208233192!3d51.50181131713625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a7ad8695e7%3A0x77977f1c5c6ea419!2sMint%20Street%20Park!5e0!3m2!1sen!2suk!4v1661278379284!5m2!1sen!2suk"
+                                width="me-auto" height="450" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class=" col-sm-6 col-md-6 col-lg-12">
+                            <h5>
+                                Developed by
+                            </h5>
+                            <h4>
+                                © David Thompson
+                            </h4>
+                            <h4>
+                                USW student ID: 30047616
+                            </h4>
+                            <br>
+                        </div>
+                        
+                        <div class=" col-sm-6 col-md-6 col-lg-0 contact footer">
+                            <h5>
+                                Contact Details
+                            </h5>
+                            <p>
+                                <strong>Email: </strong><a
+                                    href="mailto:Bikes@address.com"><strong>Bikes@Bikeshop.com</strong></a>
+                            </p>
+                            <p>
+                                <strong>Tel: 07634859845</strong>
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <!--end of footer-->
+</html>
+
+

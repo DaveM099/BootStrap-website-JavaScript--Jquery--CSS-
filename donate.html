@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ENG">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <title>GoBike</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    </head>
+    
+    <body data-spy="scroll">
+        <div class="container">
+            <div class="row">
+                <header class="col-md-12 mt-1">
+                    <!--Navigation--->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html"><img src="img/bikelogo.png">GoBike</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#menuItems" aria-controls="menuItems" aria-expanded="false"
+                                aria-label="Toggle Navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="menuItems">
+                                <ul class="navbar-nav display-4 me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="index.html"><i
+                                                class="bi-house-door"></i>Home</a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="bikes.html">Our bikes</a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="donate.html">Donate a bike</a>
+                                    </li>
+    
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item m-1">
+                                        <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+                                    </li>
+    
+    
+                                </ul>
+                                <form class="d-flex mx-2 my-2 my-lg-0 " role="search">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                            <ul class="navbar-nav m-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="user.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        User
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--End of Navigation-->
+                </header>
+                <div class="container">
+                    <div class="banner">
+        
+                    </div>
+                </div>
+            </div>
+            
+    
+            <hr>
+            <!--Start of form-->
+    
+            <div class="donate-bike">
+                <div class="container">
+                    <h2>Donate a bike today!</h2>
+    
+                    <form>
+                        <div class="row">
+    
+                            <p>To donate a bike simply fill out the form below and we'll get back to you as soon as
+                                possible. Thank you!</p>
+                            <div class="form-group m-1">
+                                <label>Name</label>
+                                <input type="text" class="form-control form-control-lg mt-1"
+                                    placeholder="Enter your name here" />
+                            </div>
+    
+                            <div class="form-group m-1">
+                                <label>Email</label>
+                                <input type="email" class="form-control form-control-lg mt-1"
+                                    placeholder="Enter your email here" />
+                            </div>
+    
+                            <div class="form-group m-1">
+                                <p>What kind of bike do you have?</p>
+                                <label>Type of bike</label>
+                                <select class="form-control form-control-lg mt-1">
+                                    <option>Mountain bike</option>
+                                    <option>Road bike</option>
+                                    <option>Electric bike</option>
+                                </select>
+                            </div>
+    
+    
+    
+                            <div class="form-group m-1">
+                                <p>How would you rate the condition of the bike?</p>
+    
+                                <input type="radio" name="condition" id="Broken" value="broken" checked><label
+                                    for="Broken">Broken</label><br>
+    
+                                <input type="radio" name="condition" id="worn" value="worn"><label for="worn">Worn but
+                                    still
+                                    roadworthy</label><br>
+    
+                                <input type="radio" name="condition" id="good" value="good" checked><label for="good">
+                                    Good
+                                    condition(used and a little worn but works well)</label><br>
+    
+                                <input type="radio" name="condition" id="Excelent" value="Excelent"><label
+                                    for="Excelent">Excellent condtion, next to no issues and/or hardly used</label>
+                            </div>
+    
+    
+    
+                            <div class="form-group">
+                                <label for="description">Tell us a little about your bike</label>
+                                <textarea class="form-control form-control-lg" id="description" rows="3"
+                                    placeholder="Enter bike description here..."></textarea>
+                            </div>
+    
+                            <input type="submit" class="btn btn-success btn-block mt-4" value="Send" />
+    
+                        </div>
+    
+    
+                    </form>
+                </div>
+    
+            </div>
+    
+    
+            <!--End of form-->
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+    
+        <script type="text/javascript" src="jquery/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script>
+            $(document).ready(function () {
+                $(".carousel").carousel({
+                    interval: 4000
+                });
+            });
+        </script>
+    
+    </body>
+    
+        <!--start of footer-->
+        <footer class="footer-bs">
+            <div class="container">
+                <div class="row">
+                    <div class="hours col-sm-12 col-md-6 col-lg-4">
+                        <h5>
+                            Opening Hours
+                        </h5>
+                        <table id="hours">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Day
+                                    </td>
+                                    <td>
+                                        Open
+                                    </td>
+                                    <td>
+                                        Close
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Monday
+                                    </td>
+                                    <td rowspan="2">
+                                        9:00
+                                    </td>
+                                    <td rowspan="2">
+                                        17:00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Tuesday
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Wednesday
+                                    </td>
+                                    <td>
+                                        10:00
+                                    </td>
+                                    <td>
+                                        18:00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Thursday
+                                    </td>
+                                    <td rowspan="2">
+                                        9:00
+                                    </td>
+                                    <td rowspan="2">
+                                        17:00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Friday
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Saturday
+                                    </td>
+                                    <td>
+                                        10:00
+                                    </td>
+                                    <td>
+                                        16:00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Sunday
+                                    </td>
+                                    <td colspan="2">
+                                        Closed
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div id="location">
+                            <h5>
+                                Where are we?
+                            </h5>
+                            <p>
+                                <iframe style="border:0;"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.621588833226!2d-0.10138978208233192!3d51.50181131713625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a7ad8695e7%3A0x77977f1c5c6ea419!2sMint%20Street%20Park!5e0!3m2!1sen!2suk!4v1661278379284!5m2!1sen!2suk"
+                                    width="me-auto" height="450" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-6 col-lg-12">
+                                <h5>
+                                    Developed by
+                                </h5>
+                                <h4>
+                                    © David Thompson
+                                </h4>
+                                <h4>
+                                    USW student ID: 30047616
+                                </h4>
+                                <br>
+                            </div>
+                            
+                            <div class=" col-sm-6 col-md-6 col-lg-0 contact footer">
+                                <h5>
+                                    Contact Details
+                                </h5>
+                                <p>
+                                    <strong>Email: </strong><a
+                                        href="mailto:Bikes@address.com"><strong>Bikes@Bikeshop.com</strong></a>
+                                </p>
+                                <p>
+                                    <strong>Tel: 07634859845</strong>
+                                </p>
+                            </div>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+            </div>
+        </footer>
+        <!--end of footer-->
+</html>
+
